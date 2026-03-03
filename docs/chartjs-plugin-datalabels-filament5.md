@@ -4,9 +4,10 @@
 
 This guide explains how to use `chartjs-plugin-datalabels` with Filament v5 chart widgets in the **Zero theme** context.
 
-Reference sample:
+Reference samples:
 
 - [chartjs-plugin-datalabels – multiple labels sample](https://chartjs-plugin-datalabels.netlify.app/samples/advanced/multiple-labels.html)
+- [chartjs-plugin-datalabels – Doughnut (sorgente)](https://github.com/chartjs/chartjs-plugin-datalabels/blob/master/docs/samples/charts/doughnut.md) / [Demo Doughnut](https://chartjs-plugin-datalabels.netlify.app/samples/charts/doughnut.html) – per grafici radiali (anchor, display, formatter globale)
 
 ## Golden rules (Filament v5)
 
@@ -72,7 +73,11 @@ If you need callbacks, always use `RawJs`.
 
 For a minimal, production-ready example showing 2 labels per bar, see:
 
-**`Modules/Quaeris/Filament/Widgets/SimpleChartWidget.php`**
+<<<<<<< .merge_file_tBm5us
+**`Modules/healthcare_app/Filament/Widgets/SimpleChartWidget.php`**
+=======
+**`Modules/ModuloEsempio/Filament/Widgets/SimpleChartWidget.php`**
+>>>>>>> .merge_file_3E0BvZ
 
 ```php
 protected function getOptions(): RawJs
